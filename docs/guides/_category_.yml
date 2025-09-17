@@ -1,0 +1,9 @@
+position: 2 
+label: 'Guides'
+collapsible: true 
+collapsed: false
+className: red
+link:
+  type: generated-index
+  title: Guides
+description: A selected list of guides to help you out and document Proxifier.

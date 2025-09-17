@@ -9,7 +9,7 @@ type Feat<T = String> = {
 }
 const features: Array<Feat> = [
     {title: "Ergenomic", desc: "Built from scratch using native Go libraries with zero dependency, no overhead and comfortable high level API. Just focus on proxying rather than debugging.", icon: "fa-solid fa-wrench"},
-    {title: "TLS", desc: `Proxifier can plug to any socket connection and wire it with TLS`, icon: "fa-solid fa-lock"},
+    {title: "TLS", desc: `Proxifier can plug to any socket connection and wire it with TLS.`, icon: "fa-solid fa-lock"},
     {title: "Reliable", desc: `Published by professionals, for professionals.`, icon: "fa-solid fa-code"}
 ]
 

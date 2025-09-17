@@ -2,46 +2,37 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Proxifier is an ergonomic proxy client library for Go programs, that can operate and wire TLS to any socket connection as it is compatible with Go's standard library.
 
-## Getting Started
+:::tip
 
-Get started by **creating a new site**.
+Did you know that Proxifier was invented for the side project of [z3ntl3](https://github.com/z3ntl3), the author. He wanted to make a reliable proxy scanner that could assess proxies very quickly and with no overhead, therefore he thought of creating his own proxy client library. Thus began his journey, reading the implementation details and drafts, and implementing it in the Go programming language.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::
 
-### What you'll need
+## Before starting
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Let's talk first about what Proxifier can do and what it cannot or isn't meant to.
 
-## Generate a new site
+- **Proxifier**
 
-Generate a new Docusaurus site using the **classic template**.
+  #### Supports
+    - ``SOCKS4/5``, ``HTTP/HTTPS`` - **with optional TLS**
+    - Authentication methods: ``Username/Password``, ``NoAuth``, it cannot do other auth methods.
+      :::info
+      
+      We plan on modularizing Proxifier with a plugin ecosystem, so other authentication methods can be introduced more easily.
+      :::
+    - Domain translation into machine IP
+      :::info
 
-The classic template will automatically be added to your project after you run the command:
+      Be aware we did not directly implement ``SOCKS/4a`` however, we made some function available in the API for domain translation.
+      Just translate the domain before using it with ``SOCKS4``.
+      
+      - **Function** 
+        > ``Domain translation into machine IP`` [LookupHost](#)
+      :::
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This library is only portable to and be used by Go programs, bindings to any other languages do not exist currently. However we plan on porting to Rust.
