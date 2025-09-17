@@ -28,7 +28,7 @@ export default function Feats(): JSX.Element {
 
     return (
         <>
-            <div className="flex justify-center items-center gap-x-25 bg-darkest w-full min-h-[320px]">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-x-25 bg-darkest w-full min-h-[320px]">
                 {output}
             </div>
         </>

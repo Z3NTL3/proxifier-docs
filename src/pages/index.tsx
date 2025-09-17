@@ -37,6 +37,7 @@ const HomeMeta = () => (
     <script type="text/tailwindcss">
       {tailwindTheme}
     </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </Head>
 )
 
@@ -45,7 +46,7 @@ export default function Home(): ReactNode {
   return (
     <>
       <HomeMeta />
-      <main className='dark' >
+      <main className="w-full h-full" >
           <Header githubLink={`https://github.com/${siteConfig.organizationName}/${siteConfig.projectName}`} />
           <Intro/>
           <Feats/>

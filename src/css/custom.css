@@ -39,3 +39,8 @@
     font-family: "Inter", sans-serif;
   }
 }
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+}
