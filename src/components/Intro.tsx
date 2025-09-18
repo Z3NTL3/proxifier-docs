@@ -12,11 +12,11 @@ export default function Intro(): JSX.Element {
                     <div className="mt-4">
                         <a href="/docs/intro">
                             <button className="cursor-pointer bg-[#4179C3] rounded-md text-[16px] text-white px-5 py-2 font-medium">Get started</button>
-                        </a>
+                        </a>    
                     </div>
                      {/* shape */}
-                    <div className="absolute md:right-80 lg:right-[500px] bottom-15 hidden md:block">
-                        <img className="scale-[113%]" src="/img/planet.svg" alt="" />
+                    <div className="absolute md:right-[5px] 2xl:right-[410px] lg:right-[100px] bottom-15 hidden md:block">
+                        <img className="lg:scale-[113%] md:scale-[100%]" src="/img/planet.svg" alt="" />
                     </div>
                     {/* end */}
                 </div>

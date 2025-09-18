@@ -15,7 +15,7 @@ const features: Array<Feat> = [
 
 export default function Feats(): JSX.Element {
     let output = features.map((item) => (
-            <div className="flex flex-col p-5 items-start min-w-[350px] max-w-[300px] min-h-[200px] gap-y-2">
+            <div className="flex flex-col p-5 items-start min-w-[230px] max-w-[300px] min-h-[200px] gap-y-2">
                 <i className={`${item.icon} text-[#4179C3] text-[26px] mb-2`}></i>
                 <h3 className="font-medium mb-2">{item.title}</h3>
 
@@ -28,7 +28,7 @@ export default function Feats(): JSX.Element {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-x-25 bg-darkest w-full min-h-[320px]">
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-x-25 bg-darkest w-full min-h-[320px]">
                 {output}
             </div>
         </>

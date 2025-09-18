@@ -23,7 +23,7 @@ export default function Header(props: HeaderProps): JSX.Element {
                 {/* end */}
 
                 {/* links */}
-                <div className="items-center gap-x-[40px] ml-40 hidden md:flex">
+                <div className="items-center gap-x-[40px] ml-40 hidden lg:flex">
                     <a href="/docs/intro" className="text-[15px] font-semibold text-white/80 hover:text-white font-inter">Docs</a>
                     <a href="https://github.com/z3ntl3" className="text-[15px] font-semibold text-white/80 hover:text-white font-inter">Author</a>
                 </div>

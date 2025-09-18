@@ -46,7 +46,7 @@ export default function Home(): ReactNode {
   return (
     <>
       <HomeMeta />
-      <main className="w-full h-full" >
+      <main className="w-full h-full overflow-hidden" >
           <Header githubLink={`https://github.com/${siteConfig.organizationName}/${siteConfig.projectName}`} />
           <Intro/>
           <Feats/>
