@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Installation
 
 Simply run the following in one of your Go projects where you want to use Proxifier.
