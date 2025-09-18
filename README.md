@@ -1,41 +1,12 @@
-# Website
+# Proxifier documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the official mirror holding the web source and assets for [proxifier.z3ntl3.com](https://proxifier.z3ntl3.com).
 
-## Installation
+- Every page in the documentation can be edited, you should open a PR if you're adding better descriptions or more to the Guides. You can contribute to the documentation, we will merge any PR that has nice additions to the documentation.
 
-```bash
-yarn
-```
+#### Built with
+- Docusaurus
+- React
+- MD / MDX
 
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+> Docusaurus home page (aka index.tsx) is a custom made design and unauthorized use may result in legal action, hence see LICENSE file.
