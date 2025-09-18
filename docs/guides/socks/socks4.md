@@ -2,7 +2,7 @@
 
 ``SOCKS4 does not have authentication``
 
-If you are unfamiliar with the concepts please first head to [Concepts](/docs/guides/concepts.md).
+If you are unfamiliar with the concepts please head to [Concepts](/docs/guides/concepts.md) first.
 
 
 ```go filename="main.go"

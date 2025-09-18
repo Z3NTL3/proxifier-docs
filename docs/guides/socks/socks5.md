@@ -1,6 +1,6 @@
 # SOCKS5 proxy sample
 
-If you are unfamiliar with the concepts please first head to [Concepts](/docs/guides/concepts.md).
+If you are unfamiliar with the concepts please head to [Concepts](/docs/guides/concepts.md) first.
 
 ### With auth
 ```go filename="main.go"
