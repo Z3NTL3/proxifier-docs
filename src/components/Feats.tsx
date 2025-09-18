@@ -1,6 +1,6 @@
 import { JSX } from "react";
 import './feats.css'
-
+import React from "react";
 
 type Feat<T = String> = {
     title: T

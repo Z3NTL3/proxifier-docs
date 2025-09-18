@@ -1,3 +1,4 @@
+import React from "react";
 import { JSX } from "react";
 
 export default function Intro(): JSX.Element {

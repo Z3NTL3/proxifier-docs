@@ -1,4 +1,5 @@
 import { JSX } from "react";
+import React from "react";
 
 interface HeaderProps {
     githubLink: string
