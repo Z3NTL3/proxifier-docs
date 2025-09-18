@@ -18,6 +18,7 @@ const tailwindTheme = `
   --color-darkest: #111412;
   --color-dark: #1C1B1B;
   --color-primary: #4179C3;
+  --breakpoint-3xl: 1900px;
 }
 
 @layer base {

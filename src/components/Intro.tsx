@@ -16,7 +16,7 @@ export default function Intro(): JSX.Element {
                         </a>    
                     </div>
                      {/* shape */}
-                    <div className="absolute md:right-[5px] 2xl:right-[410px] lg:right-[100px] bottom-15 hidden md:block">
+                    <div className="absolute md:right-[5px] 3xl:right-[550px] 2xl:right-[410px] lg:right-[100px] bottom-15 hidden md:block">
                         <img className="lg:scale-[113%] md:scale-[100%]" src="/img/planet.svg" alt="" />
                     </div>
                     {/* end */}

@@ -10,6 +10,8 @@ module.exports = {
         fontFamily: {
           poppins: ["Poppins", "sans-serif"],
           inter: ["Inter", "sans-serif"]
+        }, screens: {
+          "3xl": "1900px"
         }
       } 
     },
