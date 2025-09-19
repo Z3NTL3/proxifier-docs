@@ -4,7 +4,8 @@ import { JSX } from "react";
 export default function Intro(): JSX.Element {
     return (
         <>
-            <div className="relative flex flex-col min-h-[400px] h-fit justify-start items-center w-full mx-4 md:mx-0">
+            <div className="relative flex flex-col min-h-[400px] h-fit justify-start items-center w-full mx-4 md:mx-0 mb-30">
+                <div className="h-[60px]"></div>
                 <div className="mt-[120px]"></div>
                 <div className="min-w-[400px] p-2">
                     <h1 className="font-semibold text-[62px] h-fit text-left font-inter">Proxifier</h1>
@@ -16,7 +17,7 @@ export default function Intro(): JSX.Element {
                         </a>    
                     </div>
                      {/* shape */}
-                    <div className="absolute md:right-[5px] 3xl:right-[550px] 2xl:right-[410px] lg:right-[100px] bottom-15 hidden md:block">
+                    <div className="absolute md:right-[5px] 3xl:right-[550px] 2xl:right-[410px] lg:right-[100px] bottom-0 hidden md:block -z-50">
                         <img className="lg:scale-[113%] md:scale-[100%]" src="/img/planet.svg" alt="" />
                     </div>
                     {/* end */}

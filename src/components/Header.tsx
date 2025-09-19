@@ -8,7 +8,7 @@ interface HeaderProps {
 export default function Header(props: HeaderProps): JSX.Element {
     return (
         <>
-            <header className="fixed top-0 left-0 bg-darkest w-full h-[70px] flex p-2 items-center">
+            <header className="fixed top-0 left-0 bg-darkest w-full h-[70px] flex p-2 items-center z-50">
                 {/* logo */}
                 <div className="flex items-center">
                     <img src="./img/logo.png" alt="logo" width={35} />
