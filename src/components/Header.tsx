@@ -33,7 +33,7 @@ export default function Header(props: HeaderProps): JSX.Element {
                 {/* github btn */}
                 <div className="flex grow justify-end items-center mr-2">
                     <a href={props.githubLink}>
-                        <i className="text-[24px] fa-brands fa-github  hover:text-blue-400"></i>
+                        <i className="text-[24px] fa-brands fa-github text-white hover:text-blue-400"></i>
                     </a>
                 </div>
                 {/* end */}
